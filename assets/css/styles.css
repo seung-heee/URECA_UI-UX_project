@@ -1,3 +1,18 @@
 .slideImg {
   height: 60vh;
 }
+
+.footer-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-content, .footer-address {
+  font-size: 0.875rem; /* 글씨 크기 조정 */
+  margin-bottom: 0.5rem;
+}
+
+.footer-content {
+  line-height: 1.6;
+}
