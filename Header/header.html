@@ -13,14 +13,24 @@
       div.navbar {
         border-radius: 100px;
       }
+
+      .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+      }
     </style>
   </head>
   <body>
     <div class="navbar navbar-expand-sm bg-dark navbar-dark m-3">
       <div class="container-fluid">
-        <a class="col-sm p-2 navbar-brand logo" href="#">Logo</a>
+        <a class="col-sm p-1 navbar-brand logo" href="#" style="width: 200px">
+          <img src="./image-logo/logo.png" alt="Logo" style="width: 180px" />
+        </a>
         <div class="collapse navbar-collapse">
-          <ul class="col-sm d-flex justify-content-end navbar-nav">
+          <ul
+            class="col-sm d-flex justify-content-end navbar-nav"
+            style="font-size: 20px"
+          >
             <li class="col-sm nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -29,13 +39,16 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Menu-1
+                탑
               </a>
               <ul class="dropdown-menu" aria-labelledby="m1-DropDown">
-                <li><a class="dropdown-item" href="#">A-SubMenu-1</a></li>
-                <li><a class="dropdown-item" href="#">A-SubMenu-2</a></li>
-                <li><a class="dropdown-item" href="#">A-SubMenu-3</a></li>
-                <li><a class="dropdown-item" href="#">A-SubMenu-4</a></li>
+                <li><a class="dropdown-item" href="#">블라우스</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item" href="#">티</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item" href="#">셔츠</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item" href="#">니트</a></li>
               </ul>
             </li>
             <li class="col-sm nav-item dropdown">
@@ -46,13 +59,16 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Menu-2
+                아우터
               </a>
               <ul class="dropdown-menu" aria-labelledby="m2-DropDown">
-                <li><a class="dropdown-item" href="#">B-SubMenu-1</a></li>
-                <li><a class="dropdown-item" href="#">B-SubMenu-2</a></li>
-                <li><a class="dropdown-item" href="#">B-SubMenu-3</a></li>
-                <li><a class="dropdown-item" href="#">B-SubMenu-4</a></li>
+                <li><a class="dropdown-item" href="#">자켓</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item" href="#">코트</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item" href="#">가디건</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item" href="#">머플러 </a></li>
               </ul>
             </li>
             <li class="col-sm nav-item dropdown">
@@ -63,13 +79,16 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Menu-3
+                팬츠
               </a>
               <ul class="dropdown-menu" aria-labelledby="m3-DropDown">
-                <li><a class="dropdown-item" href="#">C-SubMenu-1</a></li>
-                <li><a class="dropdown-item" href="#">C-SubMenu-2</a></li>
-                <li><a class="dropdown-item" href="#">C-SubMenu-3</a></li>
-                <li><a class="dropdown-item" href="#">C-SubMenu-4</a></li>
+                <li><a class="dropdown-item" href="#">청바지</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item" href="#">짧은바지</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item" href="#">긴바지</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item" href="#">레깅스</a></li>
               </ul>
             </li>
             <li class="col-sm nav-item dropdown">
@@ -80,13 +99,16 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Menu-4
+                악세서리
               </a>
               <ul class="dropdown-menu" aria-labelledby="m4-DropDown">
-                <li><a class="dropdown-item" href="#">D-SubMenu-1</a></li>
-                <li><a class="dropdown-item" href="#">D-SubMenu-2</a></li>
-                <li><a class="dropdown-item" href="#">D-SubMenu-3</a></li>
-                <li><a class="dropdown-item" href="#">D-SubMenu-4</a></li>
+                <li><a class="dropdown-item" href="#">귀고리</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item" href="#">목걸이</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item" href="#">반지</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a class="dropdown-item" href="#">팔찌</a></li>
               </ul>
             </li>
           </ul>
